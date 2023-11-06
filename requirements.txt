@@ -14,9 +14,5 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
-<<<<<<< HEAD
-gdown
 -e . 
-=======
 gdown
->>>>>>> cc9636832a0a63936319efee539e9c3ff59a403d
