@@ -1,0 +1,66 @@
+[2023-11-02 02:17:28,829: INFO: main: Welcome to our custom log]
+[2023-11-02 21:55:54,478: INFO: main: >>>>>> stage Data Ingestion started <<<<<<]
+[2023-11-02 21:55:54,478: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 21:55:54,478: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 21:55:54,478: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "c:\Users\pc\OneDrive - Institut National de Statistique et d'Economie Appliquee\Documents\GitHub\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 33, in read_yaml
+    return ConfigBox(content)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python37\lib\site-packages\box\box.py", line 217, in __init__
+    raise BoxValueError('Cannot extrapolate Box from string')
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/pc/OneDrive - Institut National de Statistique et d'Economie Appliquee/Documents/GitHub/Kidney-Disease-Classification/main.py", line 12, in <module>
+    obj.main()
+  File "c:\Users\pc\OneDrive - Institut National de Statistique et d'Economie Appliquee\Documents\GitHub\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "c:\Users\pc\OneDrive - Institut National de Statistique et d'Economie Appliquee\Documents\GitHub\Kidney-Disease-Classification\src\cnnClassifier\config\configuration.py", line 13, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python37\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\Users\pc\OneDrive - Institut National de Statistique et d'Economie Appliquee\Documents\GitHub\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 35, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2023-11-05 15:11:36,508: INFO: main: >>>>>> stage Data Ingestion started <<<<<<]
+[2023-11-05 15:11:36,513: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-05 15:11:36,516: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-05 15:11:36,519: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "c:\Users\pc\OneDrive - Institut National de Statistique et d'Economie Appliquee\Documents\GitHub\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 33, in read_yaml
+    return ConfigBox(content)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python37\lib\site-packages\box\box.py", line 217, in __init__
+    raise BoxValueError('Cannot extrapolate Box from string')
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/pc/OneDrive - Institut National de Statistique et d'Economie Appliquee/Documents/GitHub/Kidney-Disease-Classification/main.py", line 12, in <module>
+    obj.main()
+  File "c:\Users\pc\OneDrive - Institut National de Statistique et d'Economie Appliquee\Documents\GitHub\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "c:\Users\pc\OneDrive - Institut National de Statistique et d'Economie Appliquee\Documents\GitHub\Kidney-Disease-Classification\src\cnnClassifier\config\configuration.py", line 13, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python37\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\Users\pc\OneDrive - Institut National de Statistique et d'Economie Appliquee\Documents\GitHub\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 35, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2023-11-05 20:02:44,463: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-05 20:02:44,508: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-05 20:10:26,838: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-05 20:10:26,838: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-05 20:10:28,447: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-05 20:10:28,457: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-05 20:13:17,914: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-05 20:13:17,924: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-05 20:15:35,072: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-05 20:15:35,077: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-05 20:15:35,089: INFO: common: created directory at: artifacts]
+[2023-11-05 20:15:35,089: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-05 20:15:35,097: INFO: 1031895116: Downloading data from https://drive.google.com/file/d/1H-wfHTZBsHludnItgHMtZLNsoqWdOzGx/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-05 20:18:36,342: INFO: 1031895116: Downloaded data from https://drive.google.com/file/d/1H-wfHTZBsHludnItgHMtZLNsoqWdOzGx/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+
