@@ -16,3 +16,7 @@
 [2023-11-07 02:45:00,597: INFO: common: created directory at: artifacts]
 [2023-11-07 02:45:00,598: INFO: common: created directory at: artifacts/data_ingestion]
 [2023-11-07 02:45:00,601: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1H-wfHTZBsHludnItgHMtZLNsoqWdOzGx/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-07 03:05:48,086: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1H-wfHTZBsHludnItgHMtZLNsoqWdOzGx/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-07 03:06:22,300: INFO: main: >>>>>> stage Data Ingestion completed <<<<<<
+
+x==========x]
