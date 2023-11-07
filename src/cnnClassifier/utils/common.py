@@ -1,9 +1,9 @@
 import os
-from box.exceptions import BoxValueError
+import joblib
 import yaml
 from cnnClassifier import logger
 import json
-import joblib
+from box.exceptions import BoxValueError
 from ensure import ensure_annotations
 from pathlib import Path
 from typing import Any
@@ -33,7 +33,6 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         raise ValueError("yaml file is empty")
     except Exception as e:
         raise e
-    
 
 
 @ensure_annotations

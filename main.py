@@ -1,5 +1,5 @@
-from src.cnnClassifier import logger
-"""rom src.cnnClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from cnnClassifier import logger
+from cnnClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 
 #logger.info("Welcome to our custom log")
 
@@ -15,5 +15,3 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
-"""
-logger.info("Welcome to our custom log")
